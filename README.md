@@ -1,7 +1,6 @@
 # :video_game: Pac-Man
 
-![2023-06-22_23-14-48](https://github.com/ek-popkova/Pac-Man/assets/111788752/58fe3edc-b060-4049-ace2-106600a07f4c)
-
+<img src="https://github.com/ek-popkova/Pac-Man/assets/111788752/58fe3edc-b060-4049-ace2-106600a07f4c" alt="gameplay_screen" style="width: 400px;">
 
 ## :memo: The rules
 
