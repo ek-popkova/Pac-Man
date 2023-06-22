@@ -1,6 +1,9 @@
-# Pac-Man
+# :video_game: Pac-Man
 
-## The rules
+![2023-06-22_23-14-48](https://github.com/ek-popkova/Pac-Man/assets/111788752/58fe3edc-b060-4049-ace2-106600a07f4c)
+
+
+## :memo: The rules
 
 - The goal of the game is to eat all the seeds and avoid the ghosts.
 - The player has 3 lives, they are lost when the PacMan meets ghosts.
@@ -9,14 +12,14 @@
 - The player controls the movement of the pac-man by pressing the arrows on the keyboard
 - Using the ESC and SPACE keys, you can restart the game or exit the application
 
-## The architecture
+## :building_construction: The architecture
 
 The code is devided into 3 modules:
 - calculateFunctions – functions, that are independent from the <windows.h> library, and are used to calculate the coordinates
 - drawingFunctions – functions, that are dependent on the <windows.h> library, and are responsible for representing the picture on the screen
 - statusCheckSound – functions, that are dependent on <windows.h> and winmm.lib and are responsible for checking the state of cells and the game itself and playing the sound whenever it changes.
 
-## Main implementation features
+## :hammer_and_wrench: Main implementation features
 
 ### Memorizing the state
 
@@ -63,7 +66,7 @@ Pacman and ghosts are moved by timer in the direction, that is memorized as thie
 - Red one is clever – he chases Pacman by calculating the shortest direction to him on CHANGE-cells.
 - If there is a BLOCK in front of a ghost, special function corrects its behavior.
 
-## Additional information
+## :link: Additional information
 
 You can watch the gameplay video [here](https://drive.google.com/file/d/11vB8LE5XquB3O6VZePCvzALH4BGoazou/view?usp=share_link "Watch video on google drive").
 
